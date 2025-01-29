@@ -3,4 +3,9 @@
   const grid = dicument.getElementById("grid");
   const ctx = canvas.getContext();
   const row = 12, col = 16;
+  const cell = 30, space = 10, margin = 5;
+
+  grid.width = col*(cell+space)+2*margin;
+  grid.height = row*(cell+space)+2*margin;
+  
 </script>
